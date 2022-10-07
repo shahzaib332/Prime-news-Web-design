@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <container class="container "  >
+    <div class="opacity1">
+<header class="topslider  " >
+
+    <div class="corosal">
+        <div class="slider">
+            <div class="imgdiv">
+             <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+         </div>
+         <div class="info">
+             <a>Protests: When its time to go home?</a>
+             <div class="date">August 1, 2018</div>
+         </div>
+
+    </div>
+
+    <div class="slider">
+        <div class="imgdiv">
+         <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+     </div>
+     <div class="info">
+         <a>Protests: When its time to go home?</a>
+         <div class="date">August 1, 2018</div>
+     </div>
+
+</div>
+
+<div class="slider">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Protests: When its time to go home?</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+
+<div class="slider">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Protests: When its time to go home?</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+
+
+
+
+
+    </div>
+
+</header>
+
+
+<!-- mid nav -->
+<div class="midwrap">
+<div class="midnav " >
+    <div class="logos">
+        <i class="fa fa-facebook-official  logo" aria-hidden="true"></i>
+        <i class="fa fa-instagram  logo" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square  logo" aria-hidden="true"></i>
+
+    </div>
+
+    <div class="heading">
+        <h1> Prime News</h1>
+        <p class="tagline">News &amp; Magazine Theme</p>
+
+    </div>
+
+    <div class="midcontent">
+
+        <a href="" class="about"> About</a>
+        <a href=""class="about"> Submit News</a>
+        <a href=""class="about"> Contact</a>
+        <a href=""class="about search">
+            <i class="fa fa-search"></i>
+        </a>
+
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- navbar -->
+<div class="navbar  ">
+    <ul class=" navcontent">
+        <li class="icon">
+    <i class="fa fa-bars iconbar" aria-hidden="true" onclick="toggle()"></i>
+</li>
+
+    
+            <li class="navitems">Home</li>
+            <li class="navitems">Politics</li>
+            <li class="navitems">World</li>
+
+            <li class="navitems business ">Business
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            
+           <ul class="menu">
+                <li class="submenu">Apple</li>
+                <li class="submenu">Social Media</li>
+                <li class="submenu">Technology</li>
+            </ul>
+        </li>
+    </li>
+
+            
+
+
+
+            <li class="navitems">Travel</li>
+
+           
+            <li class="navitems sports ">Sports
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+            <ul class="menu menu2">
+                <li class="submenu">Football</li>
+                <li class="submenu">Cricket</li>
+                <li class="submenu">Formula1</li>
+
+            </ul>
+        </li>
+
+
+            <li class="navitems">Video</li>
+
+            
+            <li class="navitems themes ">Theme Features
+                <i class="fa fa-angle-down" aria-hidden="true" ></i>
+            <ul class="menu menu3">
+                <li class="submenu">Template</li>
+                <li class="submenu">Shortcodes</li>
+              
+
+            </ul>
+
+        </li>
+
+
+
+    </div>
+</div>
+</div>
+<!-- navbar ends here -->
+
+
+
+<!--sidenav  starts here -->
+
+
+<div class="navbar sidenav" id="sidenav">
+
+<div class="inputcontainer">
+    <input type="search" class="input" placeholder="Enter your keywords..." >
+    <button class="searchbtn"> <i class="fa fa-search searchnav"></i></button>
+     <button class="cross"onclick="toggleclose()">X</button>
+    </div>
+
+    <ul class=" navcontent sidenavcontent">
+   
+
+    
+            <li class="navitems ">Home</li>
+            <li class="navitems">Politics</li>
+            <li class="navitems">World</li>
+
+            <li class="navitems businessdrop ">Business
+                <i class="fa fa-angle-down angledown"id="angledown"onclick="myFunction()" aria-hidden="true"></i>
+            
+           <ul class="sidesub"id="business">
+                <li class="submenu1 navitems" id=>Apple</li>
+                <li class="submenu1 navitems"id=>Social Media</li>
+                <li class="submenu1 navitems hideborder">Technology</li>
+            </ul>
+        </li>
+    </li>
+
+            
+
+
+
+            <li class="navitems">Travel</li>
+
+           
+            <li class="navitems sportsdrop ">Sports
+                <i class="fa fa-angle-down angledown"onclick="sportsmenu()" id="angledown"aria-hidden="true"></i>
+
+                <ul class="sidesub"id="sports">
+                <li class="submenu1 navitems">Football</li>
+                <li class="submenu1 navitems">Cricket</li>
+                <li class="submenu1 navitems hideborder">Formula1</li></ul>
+            
+        </li>
+
+
+            <li class="navitems">Video</li>
+
+            
+            <li class="navitems themesdrop ">Theme Features
+                <i class="fa fa-angle-down angledown"id="angledown" aria-hidden="true" onclick="thememenu()" ></i>
+                <ul class="sidesub"id="theme">
+                <li class="submenu1 navitems">Template</li>
+                <li class="submenu1 navitems hideborder">Shortcodes</li>
+              
+
+                </ul>
+
+
+
+        </li>
+
+
+<li class=" navitems follow"> Follow Us</li>
+
+<div class="logos sociallogo">
+    <i class="fa fa-facebook-official  logo logonav" aria-hidden="true"></i>
+    <i class="fa fa-instagram  logo logonav" aria-hidden="true"></i>
+    <i class="fa fa-twitter-square  logo logonav" aria-hidden="true"></i>
+
+</div>
+   
+
+<li class=" navitems follow"> Latest News</li>
+<div class="latestnewssec">
+
+
+    <div class="slider sidenavnews">
+        <div class="imgdiv">
+         <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+     </div>
+     <div class="info">
+         <a>Protests: When its time to go home?</a>
+         <div class="date">August 1, 2018</div>
+     </div>
+
+</div>
+
+<div class="slider sidenavnews">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Protests: When its time to go home?</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+
+<div class="slider sidenavnews">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Protests: When its time to go home?</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+
+
+</div>
+
+
+<li class=" navitems metanav"> Meta</li>
+<li class="metatag">
+<li class=" meta"> Login</li>
+<li class="meta "> Entry Feed</li>
+<li class="meta "> Comment Feed</li>
+<li class=" meta"> Wordpress.org</li>
+</li>
+
+
+ 
+</div>
+
+
+    
+
+
+</div>
+
+
+  
+
+
+
+<!--sidenav ends here  -->
+
+<opacity class="opacity">
+
+<div class="newsnav  ">
+<div class="newsheading">
+    <h3>Breaking News</h3>
+</div>
+<div class="autoslider">
+    <dt> 4 years Ago</dt>
+    <a href="">Playstation fifa 19 version will be launched </a>
+
+    <dt> 4 years Ago</dt>
+    <a href="">US presses Afghanistan on militants </a>
+
+
+    <dt> 5 years Ago</dt>
+    <a href="">Apple reports record earning </a>
+
+    <dt> 4 years Ago</dt>
+    <a href="">Playstation fifa 19 version will be launched </a>
+    <dt> 4 years Ago</dt>
+    <a href="">Massive pride prade biggest in Otawa </a>
+    <dt> 4 years Ago</dt>
+    <a href="">Playstation fifa 19 version will be launched </a>
+    <dt> 4 years Ago</dt>
+    <a href="">Playstation fifa 19 version will be launched </a>
+    
+</div>
+    
+</div>
+
+<section class="editorial">
+<div class="editorialdiv">
+
+    <div class="firstportion">
+        <h2>Editorial</h2>
+    </div>
+    <div class="newsimage">
+        <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+    </div>
+
+    <div class="title">
+        <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+    </div>
+    <div class="entry-meta">
+        <span class="entry-date">June 23, 2018 </span>
+         <span class="comments-link"><a >0 comments</a></span>
+         </div>
+
+         <div class="newsimage nm1">
+            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+        </div>
+        <div class="entry-meta">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a >0 comments</a></span>
+             </div>
+         
+</div>
+
+<slidersecction class="slidersection">
+    
+
+    <div class="slides">
+    
+    <div class="imageslider">
+        <img src="https://demo.wpzoom.com/prime-news/files/2018/04/markus-spiske-265590-unsplash-1-765x550.jpg" alt="">
+        
+    <div class="slideinfo">
+        <h5>Sports</h5>
+        <h3>International Triathlon To Head To Malta in 2018</h3>
+
+
+    </div>
+    </div>
+    <div class="imageslider">
+        <img src="https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-765x550.jpg" alt="">
+        
+    <div class="slideinfo">
+        <h5>NIGERIA</h5>
+        <h3>The Hidden Jewel In Nigeria: Discover The City Of Jebb</h3>
+
+
+    </div>
+    </div>
+
+    <div class="imageslider">
+        <img src="https://demo.wpzoom.com/prime-news/files/2018/03/rux-centea-607550-unsplash-765x550.jpg" alt="">
+        
+    <div class="slideinfo">
+        <h5>VIOLENCE</h5>
+        <h3>Student march to end gun violence</h3>
+
+
+    </div>
+    </div>
+
+    <div class="imageslider">
+        <img src="https://demo.wpzoom.com/prime-news/files/2016/02/patrick-schneider-764934-unsplash-765x550.jpg" alt="">
+        
+    <div class="slideinfo">
+        <h5>APPLe</h5>
+        <h3>Apple Reports Record Earnings and iPad Sales</h3>
+
+
+    </div>
+    </div>
+
+    <div class="imageslider">
+        <img src="https://demo.wpzoom.com/prime-news/files/2018/04/chris-barbalis-605648-unsplash-1-765x550.jpg" alt="">
+        
+    <div class="slideinfo">
+        <h5>WORLD</h5>
+        <h3>U.S. presses Afghanistan on militants</h3>
+
+
+    </div>
+    </div>
+
+
+    
+    
+
+<i class="fa fa-angle-right rightarrow " aria-hidden="true"></i>
+    <i class="fa fa-angle-left leftarrow" aria-hidden="true"></i>
+</div>
+</slidersecction>
+
+
+
+<div class="editorialdiv latestnews">
+
+    <div class="firstportion">
+        <h2>Latest News</h2>
+
+    </div>
+
+    <div class="latestcontent">
+        <a href="">Protests: When’s it time to go home?</a>
+    </div>
+    <h5 class="latestdate">
+        AUGUST1,2018
+
+    </h5>
+
+    <div class="latestcontent">
+        <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+    </div>
+    <h5 class="latestdate">
+        AUGUST1,2018
+
+    </h5>
+
+    <div class="latestcontent">
+        <a href="">PlayStation 4 FIFA 19 Bundle will be launched on September 25th</a>
+    </div>
+    <h5 class="latestdate">
+        AUGUST1,2018
+
+    </h5>
+    <div class="latestcontent">
+        <a href="">UK to step up military help to Nigeria</a>
+    </div>
+    <h5 class="latestdate">
+        AUGUST1,2018
+
+    </h5>
+    <div class="latestcontent">
+        <a href="">Just Do It: Serena Williams</a>
+    </div>
+    <h5 class="latestdate">
+        AUGUST1,2018
+
+    </h5>
+   
+
+</div>
+
+
+</section>
+
+<!-- politic section -->
+<div class="innerwrap">
+<section class="politicssection">
+    <h4 >
+        <a href="" class="politics">POLITICS</a>
+    </h4>
+    
+     <div111 class="politicsportion">
+        
+            
+    <div class="politicsp1">
+    <div class="imagedivpol">
+        <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-665x430.jpg" alt="">
+    </div>
+
+<div class="politicsinfo latestcontent">
+    <a href="">Protests: When’s it time to go home?</a>
+    <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+    <h5 class="latestdate politicsdate">
+       August 1, 2018
+
+    </h5>
+</div>
+
+
+    </div>
+    <div1 class="politicsportion2">
+    <div class="politicsp2">
+     <div class="imagesec1">
+        <div class="newsimage">
+            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+        </div>
+        <div class="entry-meta hide">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a >0 comments</a></span>
+             </div>
+             
+            </div>
+            <div class="imagesec1">
+             <div class="newsimage ">
+                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a >0 comments</a></span>
+                 </div>
+            </div>
+             
+
+    </div>
+    
+    <div class="politicsp2">
+    <div class="imagesec1">
+        <div class="newsimage">
+            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+        </div>
+        <div class="entry-meta hide">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a >0 comments</a></span>
+             </div>
+             
+            </div>
+            <div class="imagesec1">
+             <div class="newsimage ">
+                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a >0 comments</a></span>
+                 </div>
+
+
+    
+
+</div>
+</div>
+     </div111>
+
+
+    
+      
+
+</section>
+
+<!-- politic section ends here -->
+
+
+
+<!-- travel section -->
+<section class="politicssection"id="opacity">
+     
+    <h4 >
+        <a href="" class="politics travel">TRAVEL</a>
+    </h4>
+     <div class="politicsportion ">
+    <div class="politicsp1">
+    <div class="imagedivpol">
+        <img src="	https://demo.wpzoom.com/prime-news/files/2018/04/omar-prestwich-247121-unsplash-665x430.jpg" alt="">
+    </div>
+
+<div class="politicsinfo latestcontent">
+    <a href="">Trains vs. planes: What’s the real cost of travel?</a>
+    <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+    <h5 class="latestdate politicsdate">
+       August 1, 2018
+
+    </h5>
+</div>
+
+
+    </div>
+    <div class="politicsportion2">
+    <div class="politicsp2">
+     <div class="imagesec1">
+        <div class="newsimage">
+            <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">The Hidden Jewel In Nigeria: Discover The City Of Jebba</a>
+        </div>
+        <div class="entry-meta hide">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a >0 comments</a></span>
+             </div>
+             
+            </div>
+            <div class="imagesec1">
+             <div class="newsimage ">
+                <img src="	https://demo.wpzoom.com/prime-news/files/2015/01/ivars-utinsns-723615-unsplash-380x250.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">The beauty of Sweden in stunning drone photos</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a >0 comments</a></span>
+                 </div>
+            </div>
+             
+
+    </div>
+    <div class="politicsp2">
+    <div class="imagesec1">
+        <div class="newsimage">
+            <img src="	https://demo.wpzoom.com/prime-news/files/2015/01/jay-dantinne-499956-unsplash-380x250.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">Why Czechs don’t speak German</a>
+        </div>
+        <div class="entry-meta hide">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a >0 comments</a></span>
+             </div>
+             
+            </div>
+            <div class="imagesec1">
+             <div class="newsimage ">
+                <img src="	https://demo.wpzoom.com/prime-news/files/2018/01/nicolas-j-leclercq-715056-unsplash-380x250.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">  A post showing how headings look like</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a >0 comments</a></span>
+                 </div>
+
+
+    
+
+</div>
+</div>
+      
+
+</section>
+
+
+
+
+
+<!-- travel section ends here -->
+
+
+
+
+
+<!-- world portion -->
+
+<section class="politicssection">
+     
+   
+     <div class="politicsportion">
+    <div class="politicsp1 worldsp1">
+        <h4 >
+            <a href="" class="politics">World</a>
+        </h4>
+    <div class="imagedivpol">
+        <img src="	https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+    </div>
+
+<div class="politicsinfo latestcontent">
+    <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+    <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+    <h5 class="latestdate politicsdate">
+       August 1, 2018
+
+    </h5>
+</div>
+
+<div class="latestnewssec worldnewssec">
+
+
+    <div class="slider sidenavnews worldnews1">
+        <div class="imgdiv">
+         <img src="	https://demo.wpzoom.com/prime-news/files/2018/04/chris-barbalis-605648-unsplash-1-380x250.jpg" alt="">
+     </div>
+     <div class="info">
+         <a>U.S. presses Afghanistan on militants</a>
+         <div class="date">August 1, 2019</div>
+     </div>
+
+</div>
+
+<div class="slider sidenavnews worldnews1">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2014/12/ben-koorengevel-265892-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>The ‘Police Riot’</a>
+     <div class="date">March 27, 2018</div>
+ </div>
+
+</div>
+
+<div class="slider sidenavnews worldnews1">
+    <div class="imgdiv">
+     <img src="	https://demo.wpzoom.com/prime-news/files/2018/03/rux-centea-607550-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Students march to end gun violence</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+
+
+</div>
+
+
+
+    </div>
+
+
+    <div class="politicsp1 worldsp1">
+        <div class="imagedivpol">
+            <h4 >
+                <a href="" class="politics">Sports</a>
+            </h4>
+            <img src="https://demo.wpzoom.com/prime-news/files/2018/04/markus-spiske-265590-unsplash-1-665x430.jpg" alt="">
+        </div>
+    
+    <div class="politicsinfo latestcontent">
+        <a href=""> International Triathlon To Head To Malta in 2018</a>
+        <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+        <h5 class="latestdate politicsdate">
+           August 1, 2018
+    
+        </h5>
+    </div>
+
+
+    <div class="latestnewssec worldnewssec">
+
+
+        <div class="slider sidenavnews worldnews1">
+            <div class="imgdiv">
+             <img src="https://demo.wpzoom.com/prime-news/files/2018/04/fauzan-saari-687562-unsplash-165x109.jpg" alt="">
+         </div>
+         <div class="info">
+             <a>UEFA goal of the season award</a>
+             <div class="date">August 1, 2018</div>
+         </div>
+    
+    </div>
+    
+    <div class="slider sidenavnews worldnews1">
+        <div class="imgdiv">
+         <img src="https://demo.wpzoom.com/prime-news/files/2016/04/nathan-rogers-558650-unsplash-165x109.jpg" alt="">
+     </div>
+     <div class="info">
+         <a>Preparations for Preliminary Draw underway</a>
+         <div class="date">August 1, 2018</div>
+     </div>
+    
+    </div>
+    
+    <div class="slider sidenavnews worldnews1">
+        <div class="imgdiv">
+         <img src="https://demo.wpzoom.com/prime-news/files/2011/04/denys-nevozhai-752309-unsplash-1-380x250.jpg" alt="">
+     </div>
+     <div class="info">
+         <a>Summiting Yosemite’s Dawn Wall, Climbers Make History</a>
+         <div class="date">August 1, 2018</div>
+     </div>
+    
+    </div>
+    
+    
+    </div>
+    
+    
+        </div>
+
+
+
+
+    
+   
+      
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- world portion ends here -->
+
+<!-- read slider starts here -->
+<div class="readcontainer">
+
+    <h4>
+        <a href="" class="politics readalso">Read also</a>
+    </h4>
+
+    <div class="corosal2">
+
+        <div class="politicsp2 readslider">
+            <div class="imagesec1 readsliderimage">
+               <div class="newsimage readsliderimg">
+                   <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
+                   <h4 class="readtag">
+                    <a href="" class="politics">POLITICS</a>
+                </h4>
+               </div>
+           
+               <div class="title readslidertitle">
+                   <a href="">The Hidden Jewel In Nigeria: Discover The City Of Jebba</a>
+               </div>
+               <div class="entry-meta hide">
+                   <span class="entry-date">June 23, 2018 </span>
+                    <span class="comments-link"><a>0 comments</a></span>
+                    </div>
+                    
+                   </div>
+                   <div class="imagesec1 readsliderimage">
+                    <div class="newsimage readsliderimg">
+                     
+                        <img src="	https://demo.wpzoom.com/prime-news/files/2015/01/ivars-utinsns-723615-unsplash-380x250.jpg" alt="">
+                        <h4 class="readtag">
+                            <a href="" class="World">POLITICS</a>
+                        </h4>
+                    </div>
+               
+                   <div class="title readslidertitle">
+                       <a href="">The beauty of Sweden in stunning drone photos</a>
+                   </div>
+                   <div class="entry-meta hide">
+                       <span class="entry-date">June 23, 2018 </span>
+                        <span class="comments-link"><a>0 comments</a></span>
+                        </div>
+                   </div>
+
+
+                   <div class="imagesec1 readsliderimage">
+                    <div class="newsimage readsliderimg">
+                        <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
+                        <h4 class="readtag">
+                            <a href="" class="politics">sports</a>
+                        </h4>
+                    </div>
+                
+                    <div class="title readslidertitle">
+                        <a href="">The Hidden Jewel In Nigeria: Discover The City Of Jebba</a>
+                    </div>
+                    <div class="entry-meta hide">
+                        <span class="entry-date">June 23, 2018 </span>
+                         <span class="comments-link"><a>0 comments</a></span>
+                         </div>
+                         
+                        </div>
+
+                        <div class="imagesec1 readsliderimage">
+                            <div class="newsimage readsliderimg">
+                                <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
+                                <h4 class="readtag">
+                                    <a href="" class="travel">POLITICS</a>
+                                </h4>
+                            </div>
+                        
+                            <div class="title readslidertitle">
+                                <a href="">The Hidden Jewel In Nigeria: Discover The City Of Jebba</a>
+                            </div>
+                            <div class="entry-meta hide">
+                                <span class="entry-date">June 23, 2018 </span>
+                                 <span class="comments-link"><a>0 comments</a></span>
+                                 </div>
+                                 
+                                </div>
+
+                                <div class="imagesec1 readsliderimage">
+                                    <div class="newsimage readsliderimg">
+                                        <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
+                                        <h4 class="readtag">
+                                            <a href="" class="politics">POLITICS</a>
+                                        </h4>
+                                    </div>
+                                
+                                    <div class="title readslidertitle">
+                                        <a href="">The Hidden Jewel In Nigeria: Discover The City Of Jebba</a>
+                                    </div>
+                                    <div class="entry-meta hide">
+                                        <span class="entry-date">June 23, 2018 </span>
+                                         <span class="comments-link"><a>0 comments</a></span>
+                                         </div>
+                                         
+                                        </div>
+
+
+                                        <div class="imagesec1 readsliderimage">
+                                            <div class="newsimage readsliderimg">
+                                                <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
+                                             <h4 class="readtag">
+                    <a href="" class="politics">POLITICS</a>
+                </h4>
+                                            </div>
+                                        
+                                            <div class="title readslidertitle">
+                                                <a href="">The Hidden Jewel In Nigeria: Discover The City Of Jebba</a>
+                                            </div>
+                                            <div class="entry-meta hide">
+                                                <span class="entry-date">June 23, 2018 </span>
+                                                 <span class="comments-link"><a>0 comments</a></span>
+                                                 </div>
+                                                 
+                                                </div>
+                    
+       
+           </div>
+       
+
+       
+
+    </div>
+    <i class="fa fa-angle-left leftangle"></i>   
+<i class="fa fa-angle-right rightangle"></i>    
+
+
+</div>
+
+<!-- blackarea -->
+<div class="blackarea">
+
+
+    <section class="politicssection black">
+        <h4>
+            <a href="" class="politics">video</a>
+        </h4>
+        
+         <div111 class="politicsportion">
+            
+                
+        <div class="politicsp1">
+        <div class="imagedivpol video">
+            <img src="https://demo.wpzoom.com/prime-news/files/2017/04/maxresdefault-e1535616249260-665x430.jpg" alt="">
+        </div>
+    
+    <div class="politicsinfo latestcontent videocontent">
+        <a href="">Just Do It: Serena Williams</a>
+        <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+        <h5 class="latestdate politicsdate">
+           August 1, 2018
+    
+        </h5>
+    </div>
+    
+    
+        </div>
+        <div1 class="politicsportion2">
+        <div class="politicsp2">
+         <div class="imagesec1">
+            <div class="newsimage">
+                <img src="https://demo.wpzoom.com/prime-news/files/2017/04/norway-fjords-760x500.png" alt="">
+            </div>
+        
+            <div class="title videotitle">
+                <a href="">Norway’s $47 Billion Coastal Highway</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a>0 comments</a></span>
+                 </div>
+                 
+                </div>
+                <div class="imagesec1">
+                 <div class="newsimage ">
+                    <img src="https://demo.wpzoom.com/prime-news/files/2016/05/maxresdefault-1-760x500.jpg" alt="">
+                </div>
+            
+                <div class="title videotitle">
+                    <a href="">Nike’s Tinker Hatfield on designing Air Jordans, Nike MAGs</a>
+                </div>
+                <div class="entry-meta hide">
+                    <span class="entry-date">June 23, 2018 </span>
+                     <span class="comments-link"><a>0 comments</a></span>
+                     </div>
+                </div>
+                 
+    
+        </div>
+        
+        <div class="politicsp2">
+        <div class="imagesec1">
+            <div class="newsimage">
+                <img src="https://demo.wpzoom.com/prime-news/files/2016/04/monowheel-1-1512x990.png" alt="">
+            </div>
+        
+            <div class="title videotitle">
+                <a href="">Making a Monowheel</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a>0 comments</a></span>
+                 </div>
+                 
+                </div>
+                <div class="imagesec1">
+                 <div class="newsimage ">
+                    <img src="https://demo.wpzoom.com/prime-news/files/2016/04/maxresdefault-2-380x250.jpg" alt="">
+                </div>
+            
+                <div class="title videotitle">
+                    <a href="">China is erasing its border with Hong Kong</a>
+                </div>
+                <div class="entry-meta hide">
+                    <span class="entry-date">June 23, 2018 </span>
+                     <span class="comments-link"><a>0 comments</a></span>
+                     </div>
+    
+    
+        
+    
+    </div>
+    </div>
+         </div1></div111>
+    
+    
+        
+          
+    
+    </section>
+
+
+
+</div>
+
+
+
+
+
+<div class="politicssection latnews ">
+
+
+    <div class="politicsp1 latnews1">
+        <h4>
+            <a href="" class="politics">Latest News</a>
+        </h4>
+        
+
+        <div class="imagedivpol">
+            <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-665x430.jpg" alt="">
+        </div>
+    
+    <div class="politicsinfo latestcontent">
+        <a href="">Protests: When’s it time to go home?</a>
+        <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+        <h5 class="latestdate politicsdate">
+           August 1, 2018
+    
+        </h5>
+    </div>
+    
+    
+    <!-- start -->
+
+<!-- 
+    <div class="politicsp1 worldsp1 latportiot2">
+        <h4>
+            <a href="" class="politics">World</a>
+        </h4>
+    <div class="imagedivpol latimage">
+        <img src="	https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+    </div>
+
+<div class="politicsinfo latestcontent latcontent">
+    <a class="ltitle"href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+    <p>This is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+    <h5 class="latestdate politicsdate">
+       August 1, 2018
+
+    </h5>
+</div>
+
+
+
+
+
+
+
+
+
+    </div> -->
+
+
+    
+
+
+
+    <!-- end -->
+
+
+
+    <div class="latestnewssec worldnewssec">
+
+
+        <div class="slider sidenavnews worldnews1">
+            <div class="imgdiv latimg worldimg">
+             <img src="	https://demo.wpzoom.com/prime-news/files/2018/04/chris-barbalis-605648-unsplash-1-380x250.jpg" alt="">
+         </div>
+         <div class="info worldinfo">
+             <a>U.S. presses Afghanistan on militants</a>
+             <p class="paragraph">this is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+             <div class="date">August 1, 2019</div>
+         </div>
+    
+
+
+    </div>
+    
+    <div class="slider sidenavnews worldnews1">
+        <div class="imgdiv latimg latimg2 worldimg">
+         <img src="https://demo.wpzoom.com/prime-news/files/2014/12/ben-koorengevel-265892-unsplash-380x250.jpg" alt="">
+     </div>
+     <div class="info worldinfo">
+         <a>The ‘Police Riot’</a>
+         <p class="paragraph">this is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+
+         <div class="date">March 27, 2018</div>
+     </div>
+    
+    </div>
+    
+    <div class="slider sidenavnews worldnews1 ">
+        <div class="imgdiv latimg worldimg">
+         <img src="	https://demo.wpzoom.com/prime-news/files/2018/03/rux-centea-607550-unsplash-380x250.jpg" alt="">
+     </div>
+     <div class="info worldinfo">
+         <a>Students march to end gun violence</a>
+         <p class="paragraph">this is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
+
+         <div class="date">August 1, 2018</div>
+        
+    
+     </div>
+    
+    </div>
+    
+    
+    </div>
+
+
+</div>
+
+        <div class="editorialdiv latestnews">
+
+            <div class="firstportion">
+                <h2>Latest News</h2>
+        
+            </div>
+        
+            <div class="latestcontent">
+                <a href="">Protests: When’s it time to go home?</a>
+            </div>
+            <h5 class="latestdate">
+                AUGUST1,2018
+        
+            </h5>
+        
+            <div class="latestcontent">
+                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            </div>
+            <h5 class="latestdate">
+                AUGUST1,2018
+        
+            </h5>
+        
+            <div class="latestcontent">
+                <a href="">PlayStation 4 FIFA 19 Bundle will be launched on September 25th</a>
+            </div>
+            <h5 class="latestdate">
+                AUGUST1,2018
+        
+            </h5>
+            <div class="latestcontent">
+                <a href="">UK to step up military help to Nigeria</a>
+            </div>
+            <h5 class="latestdate">
+                AUGUST1,2018
+        
+            </h5>
+            <div class="latestcontent">
+                <a href="">Just Do It: Serena Williams</a>
+            </div>
+            <h5 class="latestdate border">
+                AUGUST1,2018
+        
+            </h5>
+           
+        
+        
+
+            <h4 >
+                <a href="" class="politics latworld">World</a>
+            </h4>
+        <div class="imagesec1">
+            <div class="newsimage">
+                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a>0 comments</a></span>
+                 </div>
+                 
+                </div>
+                <div class="subscribecontent">
+
+                <h3>
+                    <a href="" class="politics latworld subscribeportion">Subscribe to Blog via email</a>
+                </h3>
+
+                <p class="paragraph">Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                  <input type="text" placeholder="Enter Email">
+
+                  <button class="subscribebtn"> Subscribe</button>
+
+            </div>
+            <div class="followusdiv">
+
+
+                <h3>
+                    <a href="" class="politics latworld">Follow us</a>
+                </h3>
+
+
+                <p class="paragraph">Let's connect on any of these social networks!</p>
+                
+
+<div class="logos sociallogo">
+    <i class="fa fa-facebook-official  logo logonav latlogof" aria-hidden="true"></i>
+    <i class="fa fa-instagram  logo logonav latlogoi" aria-hidden="true"></i>
+    <i class="fa fa-twitter-square  logo logonav latlogot" aria-hidden="true"></i>
+    <i class="fa fa-youtube  logo logonav latlogot" aria-hidden="true"></i>
+     
+
+
+</div>
+
+</div>
+
+            </div>
+
+        
+</div>
+
+
+
+
+
+
+</opacity>
+
+
+
+
+
+
+</div>
+
+<div class="footer">
+    <div class="footercontent">
+        <div class="firstportion">
+            <h3>Prime News Theme</h3>
+            <p class="paragraph">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor.
+            </p>
+
+        </div>
+        <div class="secondportion">
+            <h3>Navigation</h3>
+            <li class="font">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Submit News</a>
+                <a href="">Theme Feature</a>
+
+
+            </li>
+        </div>
+
+       
+
+            <div class="subscribecontent thirdportion">
+
+                <h3 class="border ">
+                    <a href="" class="politics latworld subscribeportion font ">Subscribe Via Email</a>
+                </h3>
+
+                <p class="paragraph">Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                  <input type="text" placeholder="Enter Email">
+
+                  <button class="subscribebtn"> Subscribe</button>
+
+           
+
+        </div>
+
+        <div class="followusdiv fourthportion ">
+
+
+            <h3>
+                <a href="" class="politics latworld font ">Follow us</a>
+            </h3>
+
+
+            <p class="paragraph">Let's connect on any of these social networks!</p>
+            
+
+<div class="logos sociallogo">
+<i class="fa fa-facebook-official  logo logonav latlogof" aria-hidden="true"></i>
+<i class="fa fa-instagram  logo logonav latlogoi" aria-hidden="true"></i>
+<i class="fa fa-twitter-square  logo logonav latlogot" aria-hidden="true"></i>
+<i class="fa fa-youtube  logo logonav latlogot" aria-hidden="true"></i>
+ 
+
+
+</div>
+
+</div>
+    </div>
+</div>
+
+
+    </container>   
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
