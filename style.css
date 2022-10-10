@@ -318,11 +318,22 @@ li.submenu{
     align-items: center;
     padding: 10px 0 16px;
     background-color: #f4f4f4;
-    border: 1px solid #e8e8e8;
-   
+    
+   max-width: 1400px;
+   margin: 0 auto;
+   overflow: auto;
    
    
     
+}
+.newsnav::-webkit-scrollbar{
+    display: none;
+}
+.newsnav1{
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e8e8e8;
+    
+
 }
 .newsheading{
   
