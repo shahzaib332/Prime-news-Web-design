@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   />
-
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,11 +20,11 @@
 <body>
     <container class="container "  >
     <div class="opacity1">
-<header class="topslider  " >
+<header class="topslider  swiper mySwiper" >
 
-    <div class="corosal" >
-        <div class="slider carousel-cell" >
-            <div class="imgdiv">
+    <div class="corosal swiper-wrapper" >
+        <div class="slider swiper-slide " >
+            <div class="imgdiv ">
              <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
          </div>
          <div class="info">
@@ -31,7 +33,7 @@
          </div>
 
     </div>
-    <div class="slider carousel-cell">
+    <div class="slider swiper-slide  ">
         <div class="imgdiv">
          <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
      </div>
@@ -41,7 +43,7 @@
      </div>
 
 </div>
-<div class="slider carousel-cell">
+<div class="slider swiper-slide ">
     <div class="imgdiv">
      <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
  </div>
@@ -51,7 +53,7 @@
  </div>
 
 </div>
-<div class="slider carousel-cell">
+<div class="slider swiper-slide ">
     <div class="imgdiv">
      <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
  </div>
@@ -61,7 +63,7 @@
  </div>
 
 </div>
-    <div class="slider carousel-cell">
+    <div class="slider ">
         <div class="imgdiv">
          <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
      </div>
@@ -72,7 +74,7 @@
 
 </div>
 
-<div class="slider carousel-cell">
+<div class="slider swiper-slide ">
     <div class="imgdiv">
      <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
  </div>
@@ -83,7 +85,7 @@
 
 </div>
 
-<div class="slider carousel-cell">
+<div class="slider swiper-slide ">
     <div class="imgdiv">
      <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
  </div>
@@ -93,6 +95,7 @@
  </div>
 
 </div>
+
 
 
 
@@ -100,8 +103,9 @@
 
     </div>
     
-<!-- <i class="fa fa-angle-right rightbtn " aria-hidden="true"></i>
-<i class="fa fa-angle-left leftbtn" aria-hidden="true"></i> -->
+    <div class="swiper-button-next bn"></div>
+    <div class="swiper-button-prev bp"></div>
+    <div class="swiper-pagination"></div>
 
 </header>
 
@@ -395,12 +399,13 @@
 </div>
 
 <section class="editorial">
+    <div class="editorial2">
 <div class="editorialdiv display1">
 
     <div class="firstportion fp ">
         <h2 >Editorial</h2>
     </div>
-    <div class="newsimage">
+    <div class="newsimage nimage">
         <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
     </div>
 
@@ -412,7 +417,7 @@
          <span class="comments-link"><a >0 comments</a></span>
          </div>
 
-         <div class="newsimage nm1">
+         <div class="newsimage nm1 nimage "min-width="">
             <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
         </div>
     
@@ -619,7 +624,7 @@
 
 </div>
 </div2>
-
+</div>
 
 </section>
 <!-- editorial secon display -->
@@ -658,11 +663,11 @@
     <div class="politicsp2">
      <div class="imagesec1">
         <div class="newsimage">
-            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            <img src="	https://demo.wpzoom.com/prime-news/files/2018/06/nandhu-kumar-698452-unsplash-380x250.jpg" alt="">
         </div>
     
         <div class="title">
-            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            <a href="Testing the Elements"></a>
         </div>
         <div class="entry-meta hide">
             <span class="entry-date">June 23, 2018 </span>
@@ -672,11 +677,13 @@
             </div>
             <div class="imagesec1">
              <div class="newsimage ">
-                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+                <img src="https://demo.wpzoom.com/prime-news/files/2018/05/roberto-catarinicchia-225830-unsplash-380x250.jpg" alt="">
             </div>
         
             <div class="title">
-                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+                <a href=""> 
+
+                    UK to step up military help to Nigeria</a>
             </div>
             <div class="entry-meta hide">
                 <span class="entry-date">June 23, 2018 </span>
@@ -690,11 +697,11 @@
     <div class="politicsp2">
     <div class="imagesec1">
         <div class="newsimage">
-            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            <img src="https://demo.wpzoom.com/prime-news/files/2018/03/dylan-nolte-668913-unsplash-380x250.jpg" alt="">
         </div>
     
         <div class="title">
-            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            <a href="">First Brexit residency applications made</a>
         </div>
         <div class="entry-meta hide">
             <span class="entry-date">June 23, 2018 </span>
@@ -704,11 +711,11 @@
             </div>
             <div class="imagesec1">
              <div class="newsimage ">
-                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+                <img src="	https://demo.wpzoom.com/prime-news/files/2013/02/david-everett-strickler-196946-unsplash-380x250.jpg" alt="">
             </div>
         
             <div class="title">
-                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+                <a href="">Don McGahn to Leave White House Counsel Job This Fall</a>
             </div>
             <div class="entry-meta hide">
                 <span class="entry-date">June 23, 2018 </span>
@@ -990,16 +997,16 @@
 <!-- read slider starts here -->
 <div class="readcontainer">
 
-    <h4>
+    <h4 class="readalsoheading">
         <a href="" class="politics readalso">Read also</a>
     </h4>
 
-    <div class=" corosal2">
+    <div class=" corosal2 swiper-container mySwiper">
 <!-- data-flickity='{ "wrapAround": true }' -->
-        <div class=" politicsp2 readslider "   >
+        <div class=" politicsp2  swiper-wrapper"   >
             
 
-            <div class=" imagesec1 readsliderimage ">
+            <div class=" swiper-slide imagesec1 readsliderimage ">
             
             
                
@@ -1020,7 +1027,7 @@
                     
                    </div>
                   
-                   <div class="  imagesec1 readsliderimage">
+                   <div class=" swiper-slide  imagesec1 readsliderimage ">
                     <div class="newsimage readsliderimg">
                      
                         <img src="	https://demo.wpzoom.com/prime-news/files/2015/01/ivars-utinsns-723615-unsplash-380x250.jpg" alt="">
@@ -1039,7 +1046,7 @@
                    </div>
 
 
-                   <div class="  imagesec1 readsliderimage ">
+                   <div class="swiper-slide   imagesec1 readsliderimage ">
                     <div class="newsimage readsliderimg">
                         <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                         <h4 class="readtag">
@@ -1057,7 +1064,7 @@
                          
                         </div>
 
-                        <div class=" imagesec1 readsliderimage ">
+                        <div class="swiper-slide  imagesec1 readsliderimage ">
                             <div class="newsimage readsliderimg">
                                 <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                                 <h4 class="readtag">
@@ -1075,7 +1082,7 @@
                                  
                                 </div>
 
-                                <div class=" imagesec1 readsliderimage ">
+                                <div class="swiper-slide  imagesec1 readsliderimage">
                                     <div class="newsimage readsliderimg">
                                         <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                                         <h4 class="readtag">
@@ -1094,7 +1101,7 @@
                                         </div>
 
 
-                                        <div class=" imagesec1 readsliderimage">
+                                        <div class="swiper-slide  imagesec1 readsliderimage " >
                                             <div class="newsimage readsliderimg">
                                                 <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                                              <h4 class="readtag">
@@ -1116,12 +1123,12 @@
                                                                                        
        
            </div>
-           <div class="swiper-button-next"></div>
-           <div class="swiper-button-prev"></div> 
-           <div class="swiper-scrollbar"></div>
-      <div class="swiper-pagination"></div>
+          
+           
        
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> 
        
        
         </div>
@@ -1542,39 +1549,51 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  
     <script src="app.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 1,
-          centeredSlides: false,
-          slidesPerGroupSkip: 1,
-          grabCursor: true,
-          keyboard: {
-            enabled: true,
-          },
-          breakpoints: {
-            769: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
-            },
-          },
-          scrollbar: {
-            el: ".swiper-scrollbar",
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
+        var swiper = new Swiper('.mySwiper', {
+          slidesPerView: 3,
+          slidesPerColumn: 2,
+          spaceBetween: 30,
           pagination: {
-            el: ".swiper-pagination",
+            el: '.swiper-pagination',
             clickable: true,
           },
+          navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
         });
       </script>
+
+
+
+ <!-- Swiper JS -->
+ 
+
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper('.topslider', {
+      slidesPerView: 3,
+      slidesPerColumn: 2,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+    });
+
+ 
+ </script>
 
 </body>
 </html>
