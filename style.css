@@ -25,7 +25,9 @@ body{
     left: 0;
     width: 100%
 }
-
+.fp h2{
+    width: 100%;
+}
 .logos {
     font-size: 25px;
 }
@@ -393,6 +395,7 @@ li.submenu{
     font-weight: 300;
     font-size: 24px;
     letter-spacing: 1.2px;
+    white-space: nowrap;
 }
 
 /* news section */
