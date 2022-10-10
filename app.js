@@ -135,3 +135,112 @@ function myFunction() {
     }
   }
 
+
+
+
+
+
+//nav bar
+$(window).scroll(function(){
+  if($(this).scrollTop() > 100){
+      $('.navbar').addClass('sticky')
+  } else{
+      $('.nav').removeClass('sticky')
+  }
+});
+
+
+
+
+
+//slider
+const product = [...document.querySelectorAll('.readsliderimage')];
+const nextBtn = [...document.querySelectorAll('.rightangle')];
+const preBtn = [...document.querySelectorAll('.leftangle')];
+let product_page=Math.ceil(product.length/4);
+
+
+let moveper=25.34;
+let maxmove=25.34;
+
+let l =0;
+
+//mobile view
+let mobile_view=window.matchMedia("(max-width:768px)");
+if(mobile_view.matches){
+  moveper=50.36;
+  maxmove=504;
+}
+let right_move=()=>{
+  l=1+moveper;
+  if(product==1){l=0}
+  for(const i of product)
+  {
+    if(l>maxmove){l=l-moveper;}
+    i.style.left='-'+l+'%'
+  }
+};
+nextBtn[1].onclick=()=>{right_move();}
+
+// productContainers.forEach((item, i) => {
+//     let containerDimensions = item.getBoundingClientRect();
+//     let containerWidth = containerDimensions.width;
+
+//     nextBtn[i].addEventListener('click', () => {
+//         item.scrollLeft += containerWidth;
+//     })
+
+//     preBtn[i].addEventListener('click', () => {
+//         item.scrollLeft -= containerWidth;
+//     })
+// })
+//ends here
+
+//slider
+//products slider starts here
+// const slider= document.querySelector('.topslider');
+// const carousel= document.querySelector('.corosal');
+
+
+
+// const prev=document.querySelector('.rightbtn');
+// const next=document.querySelector('.leftbtn');
+// let direction;
+
+// next.addEventListener('click',function(){
+//     slider.appendChild(slider.firstElementChild);
+//     slider.style.transform='translate(-20%)';
+    
+//    direction = -1;
+//   carousel.style.justifyContent = 'flex-start';
+
+    
+
+    
+// });
+// prev.addEventListener('click', function() {
+  
+//     slider.appendChild(slider.firstElementChild);
+//   direction=1;
+   
+//   slider.style.transform = 'translate(30%)';  
+  
+ 
+  
+// });
+
+// slider.addEventListener('transitionend', function() {
+//   // get the last element and append it to the front
+  
+//  // if (direction === 1) {
+//     //slider.prepend(slider.lastElementChild);
+//   //} else {
+//     //slider.appendChild(slider.firstElementChild);
+//   //}
+  
+//   slider.style.transition = 'none';
+//   //slider.style.transform = 'translate(0)';
+//   setTimeout(() => {
+//     slider.style.transition = 'all 0.8s';
+//   })
+// }, false);

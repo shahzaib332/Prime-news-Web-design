@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -13,8 +20,8 @@
     <div class="opacity1">
 <header class="topslider  " >
 
-    <div class="corosal">
-        <div class="slider">
+    <div class="corosal" >
+        <div class="slider carousel-cell" >
             <div class="imgdiv">
              <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
          </div>
@@ -24,8 +31,37 @@
          </div>
 
     </div>
+    <div class="slider carousel-cell">
+        <div class="imgdiv">
+         <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+     </div>
+     <div class="info">
+         <a>Protests: When its time to go home?</a>
+         <div class="date">August 1, 2018</div>
+     </div>
 
-    <div class="slider">
+</div>
+<div class="slider carousel-cell">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Protests: When its time to go home?</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+<div class="slider carousel-cell">
+    <div class="imgdiv">
+     <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
+ </div>
+ <div class="info">
+     <a>Protests: When its time to go home?</a>
+     <div class="date">August 1, 2018</div>
+ </div>
+
+</div>
+    <div class="slider carousel-cell">
         <div class="imgdiv">
          <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
      </div>
@@ -36,7 +72,7 @@
 
 </div>
 
-<div class="slider">
+<div class="slider carousel-cell">
     <div class="imgdiv">
      <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
  </div>
@@ -47,7 +83,7 @@
 
 </div>
 
-<div class="slider">
+<div class="slider carousel-cell">
     <div class="imgdiv">
      <img src="https://demo.wpzoom.com/prime-news/files/2012/08/will-h-mcmahan-536141-unsplash-380x250.jpg" alt="">
  </div>
@@ -63,6 +99,9 @@
 
 
     </div>
+    
+<!-- <i class="fa fa-angle-right rightbtn " aria-hidden="true"></i>
+<i class="fa fa-angle-left leftbtn" aria-hidden="true"></i> -->
 
 </header>
 
@@ -83,12 +122,12 @@
 
     </div>
 
-    <div class="midcontent">
+    <div class="midcontent ">
 
-        <a href="" class="about"> About</a>
-        <a href=""class="about"> Submit News</a>
-        <a href=""class="about"> Contact</a>
-        <a href=""class="about search">
+        <a href="" class="about hide1"> About</a>
+        <a href=""class="about hide1"> Submit News</a>
+        <a href=""class="about hide1"> Contact</a>
+        <a href=""class="about search hide1">
             <i class="fa fa-search"></i>
         </a>
 
@@ -108,9 +147,17 @@
 <div class="navbar  ">
     <ul class=" navcontent">
         <li class="icon">
+
     <i class="fa fa-bars iconbar" aria-hidden="true" onclick="toggle()"></i>
 </li>
 
+<li class="navmenu">
+    <i class="fa fa-bars iconbar"></i>
+    <li class="navitems menu1"> Menu </li>
+
+</li>
+            
+            <ul class="navitemcontainer">
     
             <li class="navitems">Home</li>
             <li class="navitems">Politics</li>
@@ -149,7 +196,7 @@
             <li class="navitems">Video</li>
 
             
-            <li class="navitems themes ">Theme Features
+            <li class="navitems themes ">Theme
                 <i class="fa fa-angle-down" aria-hidden="true" ></i>
             <ul class="menu menu3">
                 <li class="submenu">Template</li>
@@ -160,7 +207,14 @@
 
         </li>
 
+    </ul>
+    <!--  -->
 
+
+    
+
+
+    <!--  -->
 
     </div>
 </div>
@@ -341,7 +395,7 @@
 </div>
 
 <section class="editorial">
-<div class="editorialdiv">
+<div class="editorialdiv display1">
 
     <div class="firstportion">
         <h2>Editorial</h2>
@@ -441,8 +495,83 @@
 </slidersecction>
 
 
+<!-- for 850px width -->
+<div2 class="direction ">
+<!-- <div class="politicsp2 editoial1250 display">
+    <div class="firstportion">
+        <h2>Editorial</h2>
+    </div>
+     <div class="imagesec1">
+        
+        <div class="newsimage">
+            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+        </div>
+        <div class="entry-meta hide">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a>0 comments</a></span>
+             </div>
+             
+            </div>
+            <div class="imagesec1">
+             <div class="newsimage ">
+                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            </div>
+            <div class="entry-meta hide">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a>0 comments</a></span>
+                 </div>
+            </div>
+             
 
-<div class="editorialdiv latestnews">
+    </div> -->
+    <div class="editorialdiv display editoial1250">
+
+        <div class="firstportion">
+            <h2>Editorial</h2>
+        </div>
+        <div3 class="direction">
+        <div class="imagecontainer">
+        <div class="newsimage">
+            <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+        </div>
+    
+        <div class="title">
+            <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+        </div>
+        <div class="entry-meta">
+            <span class="entry-date">June 23, 2018 </span>
+             <span class="comments-link"><a >0 comments</a></span>
+             </div>
+
+            </div>
+    <div class="imagecontiner">
+             <div class="newsimage nm1">
+                <img src="https://demo.wpzoom.com/prime-news/files/2016/06/alice-donovan-rouse-195453-unsplash-665x430.jpg" alt="">
+            </div>
+        
+            <div class="title">
+                <a href="">Massive Pride parade likely the biggest ever in Ottawa</a>
+            </div>
+            <div class="entry-meta">
+                <span class="entry-date">June 23, 2018 </span>
+                 <span class="comments-link"><a >0 comments</a></span>
+                 </div>
+                </div>
+            </div3>
+    </div>
+<!-- ends here -->
+
+
+
+<div class="editorialdiv latestnews ln">
 
     <div class="firstportion">
         <h2>Latest News</h2>
@@ -489,9 +618,15 @@
    
 
 </div>
+</div2>
 
 
 </section>
+<!-- editorial secon display -->
+
+
+
+
 
 <!-- politic section -->
 <div class="innerwrap">
@@ -859,11 +994,16 @@
         <a href="" class="politics readalso">Read also</a>
     </h4>
 
-    <div class="corosal2">
+    <div class=" corosal2">
+<!-- data-flickity='{ "wrapAround": true }' -->
+        <div class=" politicsp2 readslider "   >
+            
 
-        <div class="politicsp2 readslider">
-            <div class="imagesec1 readsliderimage">
-               <div class="newsimage readsliderimg">
+            <div class=" imagesec1 readsliderimage ">
+            
+            
+               
+               <div class="newsimage readsliderimg" >
                    <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                    <h4 class="readtag">
                     <a href="" class="politics">POLITICS</a>
@@ -879,7 +1019,8 @@
                     </div>
                     
                    </div>
-                   <div class="imagesec1 readsliderimage">
+                  
+                   <div class="  imagesec1 readsliderimage">
                     <div class="newsimage readsliderimg">
                      
                         <img src="	https://demo.wpzoom.com/prime-news/files/2015/01/ivars-utinsns-723615-unsplash-380x250.jpg" alt="">
@@ -898,7 +1039,7 @@
                    </div>
 
 
-                   <div class="imagesec1 readsliderimage">
+                   <div class="  imagesec1 readsliderimage ">
                     <div class="newsimage readsliderimg">
                         <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                         <h4 class="readtag">
@@ -916,7 +1057,7 @@
                          
                         </div>
 
-                        <div class="imagesec1 readsliderimage">
+                        <div class=" imagesec1 readsliderimage ">
                             <div class="newsimage readsliderimg">
                                 <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                                 <h4 class="readtag">
@@ -934,7 +1075,7 @@
                                  
                                 </div>
 
-                                <div class="imagesec1 readsliderimage">
+                                <div class=" imagesec1 readsliderimage ">
                                     <div class="newsimage readsliderimg">
                                         <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                                         <h4 class="readtag">
@@ -953,7 +1094,7 @@
                                         </div>
 
 
-                                        <div class="imagesec1 readsliderimage">
+                                        <div class=" imagesec1 readsliderimage">
                                             <div class="newsimage readsliderimg">
                                                 <img src="	https://demo.wpzoom.com/prime-news/files/2018/08/anne-lin-572128-unsplash-380x250.jpg" alt="">
                                              <h4 class="readtag">
@@ -971,22 +1112,27 @@
                                                  
                                                 </div>
                     
+                                              
+                                                                                       
        
            </div>
+           <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div> 
+           <div class="swiper-scrollbar"></div>
+      <div class="swiper-pagination"></div>
        
-
+        </div>
        
-
-    </div>
-    <i class="fa fa-angle-left leftangle"></i>   
-<i class="fa fa-angle-right rightangle"></i>    
+       
+        </div>
+   
 
 
 </div>
-
+</div>
 <!-- blackarea -->
 <div class="blackarea">
-
+    
 
     <section class="politicssection black">
         <h4>
@@ -1087,13 +1233,14 @@
     </section>
 
 
+    
 
 </div>
 
 
 
 
-
+<div class="innerwrap">
 <div class="politicssection latnews ">
 
 
@@ -1159,11 +1306,11 @@
     <div class="latestnewssec worldnewssec">
 
 
-        <div class="slider sidenavnews worldnews1">
+        <div class="slider sidenavnews worldnews1 latestnewsinfo">
             <div class="imgdiv latimg worldimg">
              <img src="	https://demo.wpzoom.com/prime-news/files/2018/04/chris-barbalis-605648-unsplash-1-380x250.jpg" alt="">
          </div>
-         <div class="info worldinfo">
+         <div class="info worldinfo ">
              <a>U.S. presses Afghanistan on militants</a>
              <p class="paragraph">this is some dummy copy. You’re not really supposed to read this dummy copy, it is just a place holder for people who need some type to visualize what the actual copy might look like if it were real content. If you want to read, I might suggest a good[Read More…]</p>
              <div class="date">August 1, 2019</div>
@@ -1173,7 +1320,7 @@
 
     </div>
     
-    <div class="slider sidenavnews worldnews1">
+    <div class="slider sidenavnews worldnews1 latestnewsinfo ">
         <div class="imgdiv latimg latimg2 worldimg">
          <img src="https://demo.wpzoom.com/prime-news/files/2014/12/ben-koorengevel-265892-unsplash-380x250.jpg" alt="">
      </div>
@@ -1186,7 +1333,7 @@
     
     </div>
     
-    <div class="slider sidenavnews worldnews1 ">
+    <div class="slider sidenavnews worldnews1 latestnewsinfo">
         <div class="imgdiv latimg worldimg">
          <img src="	https://demo.wpzoom.com/prime-news/files/2018/03/rux-centea-607550-unsplash-380x250.jpg" alt="">
      </div>
@@ -1311,6 +1458,7 @@
 
         
 </div>
+</div>
 
 
 
@@ -1328,13 +1476,13 @@
 
 <div class="footer">
     <div class="footercontent">
-        <div class="firstportion">
-            <h3>Prime News Theme</h3>
+        <div class="firstportion ">
+            <h3 class="primenews">Prime News Theme</h3>
             <p class="paragraph">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor.
             </p>
 
         </div>
-        <div class="secondportion">
+        <div class="secondportion firstportion">
             <h3>Navigation</h3>
             <li class="font">
                 <a href="">Home</a>
@@ -1349,7 +1497,7 @@
 
        
 
-            <div class="subscribecontent thirdportion">
+            <div class="subscribecontent thirdportion firstportion">
 
                 <h3 class="border ">
                     <a href="" class="politics latworld subscribeportion font ">Subscribe Via Email</a>
@@ -1364,7 +1512,7 @@
 
         </div>
 
-        <div class="followusdiv fourthportion ">
+        <div class="followusdiv fourthportion firstportion">
 
 
             <h3>
@@ -1394,9 +1542,39 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="app.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          centeredSlides: false,
+          slidesPerGroupSkip: 1,
+          grabCursor: true,
+          keyboard: {
+            enabled: true,
+          },
+          breakpoints: {
+            769: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+            },
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+
 </body>
 </html>
