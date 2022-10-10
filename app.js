@@ -244,3 +244,38 @@ nextBtn[1].onclick=()=>{right_move();}
 //     slider.style.transition = 'all 0.8s';
 //   })
 // }, false);
+
+
+// most view menu
+function openpopular(){
+  document.getElementById('list2').style.display= "block";
+  document.getElementById('list').style.display= "none";
+  var mv=document.getElementById('mostview');
+  mv.style.backgroundColor="#f4f5f5";
+  var mp=document.getElementById('mostpopular');
+  mp.style.backgroundColor="#2857bd";
+  mp.style.color="white";
+  mv.style.color="#aaa";
+  
+
+}
+
+function openview(){
+  document.getElementById('list').style.display= "block";
+  document.getElementById('list2').style.display= "none";
+  document.getElementById('mostview').style.backgroundColor="#2857bd";
+  document.getElementById('mostpopular').style.backgroundColor="#f4f5f5";
+  document.getElementById('mostview').style.color="white";
+  document.getElementById('mostpopular').style.color="#aaa";
+  document.getElementById('mostpopular').style.color.hover="black";
+ 
+  
+
+}
+
+// var mv=document.getElementById('mostview');
+// mv.style.backgroundColor="#f4f5f5";
+// var mp=document.getElementById('mostpopular');
+// mp.style.backgroundColor="#f4f5f5";
+//#aaa
+

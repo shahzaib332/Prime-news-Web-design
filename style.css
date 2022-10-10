@@ -17,6 +17,39 @@ body{
    
 
 }
+.list{
+    list-style: decimal;
+    font-size: 20px;
+    text-align: start;
+    color: #2857bd;
+    font-weight: bold;
+    
+}
+.mostviewportion{
+    width: auto;
+
+}
+.mostviewportion li{
+    list-style: none;
+}
+h2.mostview {
+    width: fit-content;
+    background: #2857bd;
+    padding: 12px 28px;
+    font-size: 12px;
+    color: white;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.mostviewportion{
+    display: flex;
+    cursor: pointer;
+   
+}
+h2.mostpopular{
+    background: #f4f5f5;
+
+}
 .sticky{
     position: fixed;
     top: 0;
@@ -402,7 +435,9 @@ li.submenu{
     width: 280px;
     /* width: 26%; */
 }
-.editorialdiv h2{
+
+
+ .fp h2{
     border-bottom: 2px solid #ccced7;
     padding-bottom: 20px;
     line-height: 1.1;
@@ -412,6 +447,31 @@ li.submenu{
     font-size: 24px;
     letter-spacing: 1.2px;
     white-space: nowrap;
+   
+    
+} 
+h4.worldhead{
+    margin-top: 70px;
+}
+h5.latdate{
+    padding-bottom: 10px;
+    margin-top: 6px;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-weight: 300;
+}
+li.latestcontent a {
+    text-decoration: none;
+    font-weight: 600;
+    /* margin: 0 0 5px; */
+    font-size: 16px;
+    line-height: 0.4;
+    font-family: libre franklin,sans-serif;
+    color: #2b2c30;
+    font-size: 18px;
+}
+.list2{
+    display: none;
 }
 
 /* news section */
@@ -474,10 +534,10 @@ li.submenu{
     margin-top: 35px;
 }
 .imageslider img{
-    margin-top: 82px;
+    margin-top: 30px;
     height: 581px;
     width: 630px;
-  
+    padding: 20px;
 }
 .editorial2{
     display: flex;
@@ -851,7 +911,7 @@ li.submenu1.navitems {
     cursor: pointer;
 
 }
-.
+
 .navitems:hover{
     cursor: pointer;
    
@@ -1038,8 +1098,7 @@ width: 60;
     flex-direction: row;
 }
 .latnews1{
-    width: 55%;
-   
+    width: 65%;
 }
 .latnews1 .imagedivpol {
     width: 96%;
@@ -1394,8 +1453,8 @@ element.style {
     /* width: 80%; */
 }
 .imageslider img {
-    margin-top: 82px;
-    height: 581px;
+    /* margin-top: 82px; */
+    /* height: 581px; */
     width: 630px;
     width: 90%;
 }
@@ -1406,12 +1465,12 @@ element.style {
 }
 .slides .imageslider{
    
+margin-top: -36px;
 }
 .slides .imageslider img{
-    margin-top: 82px;
-   
+    /* margin-top: 82px; */
     width: 100%;
-  
+    margin-top: 55px;
 }
 .slides{
     display: flex;
@@ -1422,7 +1481,7 @@ i.fa.fa-angle-right.rightarrow {
 }
 i.fa.fa-angle-left.leftarrow {
 
-    left: 64px;
+left: 98px;
 }
 .politicsp2.editoial1250 {
     width: 50%;
