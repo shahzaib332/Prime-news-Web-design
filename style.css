@@ -228,18 +228,19 @@ a.about:hover{
 .navbar{
     background: #2857bd;
     width: 100%;
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     position: relative;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
     z-index: 100;
-    padding: 20px;
-    
-    align-items: center;
+    /* padding: 20px; */
+    /* align-items: center; */
+    padding: 10px 0;
+    text-align: center;
 }
 .menu1{
     align-items: center;
@@ -257,24 +258,27 @@ li.navitems.menu1 {
 }
 
 .navcontent{
-    display: flex;
+    /* display: flex; */
     /* justify-content: space-between; */
     list-style: none;
     position: relative;
-    padding: 8px 0;
+    /* padding: 8px 0; */
     width: 100%;
-    padding-left: 49px;
-    justify-content: center;
+    /* padding-left: 49px; */
+    /* justify-content: center; */
     max-width: 1400px;
     margin: 0 auto;
+    /* float: none; */
+    display: inline-block;
 }
 .navitemcontainer{
-    display: flex;
-    
+    /* display: flex; */
+    /* float: right; */
+    /* float: none; */
 }
 .navitems{
-    display: flex;
-    
+    display: inline-block;
+    /* display: flex; */
 }
 
 .navcontent .menu{
@@ -299,6 +303,7 @@ li.navitems.menu1 {
 i.fa.fa-bars.iconbar {
     /* width: 50px; */
     font-size: 28px;
+    /* align-items: center; */
 }
 i.fa.fa-angle-down{
     margin-left: 5px;
@@ -308,15 +313,15 @@ i.fa.fa-angle-down{
 li.icon {
     position: absolute;
     /* left: -208px; */
-    left: 40px;
-    top: 3px;
+    /* left: 40px; */
+    /* top: 3px; */
     /* width: 43px; */
 }
 
 
 li.navitems 
 {
-    padding: 0 20px;
+    padding: 4px 15px;
 }
 ul.menu.menu2{
     display: none;
@@ -1528,10 +1533,12 @@ div3.direction {
     }
     .navmenu{
         display: block;
+        display: flex;
+        justify-content: center;
+        /* width: fit-content; */
     }
     li.navitems.menu1 {
         display: block;
-      
     }
     .hide1{
         display: none;
