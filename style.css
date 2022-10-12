@@ -1,5 +1,6 @@
 html{
     font-size: 10px;
+    overflow-x: hidden;
 }
 
 .carousel{
@@ -16,6 +17,40 @@ body{
     overflow-x: hidden;
    
 
+}
+.instadiv h3 a{
+    text-transform: lowercase;
+    margin: 0 0 30px;
+    padding: 0 0 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #2b2c30;
+  
+}
+.info.infoside {
+    text-align: justify;
+}
+.instacontent li{
+    list-style: none;
+}
+.instadiv{
+    display: flex;
+    flex-direction: column;
+}
+ul.instacontent {
+    width: 100%;
+    margin-left: -33px;
+}
+.insta{
+  
+float: left;
+  
+width: 76px;
+  
+padding-right: 10px;
+  
+padding-bottom: 10px;
 }
 .list{
     list-style: decimal;
@@ -65,11 +100,10 @@ h2.mostpopular{
 .container{
     display: flex;
     flex-direction: column;
-    width: 100%;
- 
-    
-    
-    
+   
+  
+   
+
 }
 .topslider{
     display: flex;
@@ -129,7 +163,6 @@ i.fa.fa-angle-left.leftbtn {
 }
 .info{
     padding-left: 17px;
-
 }
 .info a{
     font-size: 15px;
@@ -491,8 +524,8 @@ li.latestcontent a {
     /* margin: 0 auto; */
 }
 .newsimage {
-    max-width: 351px;
-    margin-bottom: 30px;
+    /* max-width: 351px; */
+    /* margin-bottom: 30px; */
     padding-top: 10px;
 }
 
@@ -530,7 +563,7 @@ li.latestcontent a {
     padding-right:10px ;
 }
 .nm1{
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .imageslider{
     /* width: 40%; */
@@ -541,8 +574,8 @@ li.latestcontent a {
 .imageslider img{
     margin-top: 30px;
     height: 581px;
-    width: 630px;
-    padding: 20px;
+    width: 635px;
+    /* padding: 20px; */
 }
 .editorial2{
     display: flex;
@@ -573,6 +606,7 @@ li.latestcontent a {
     flex-direction: row;
     /* width: 630px; */
     /* width: 40%; */
+    /* padding: 20px; */
 }
 
 i.fa.fa-angle-left.leftarrow {
@@ -629,12 +663,15 @@ i.fa.fa-angle-right.rightarrow {
     border-bottom: 2px solid #ccced7;
     width: 100%;
     /* padding: 25px; */
-    /* width: 95%; */
+    width: 95%;
     /* margin-left: 20px; */
     /* margin-left: 40px; */
     margin-top: 85px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     /* margin-top: 65px; */
+    /* margin-left: 30px; */
+    margin-left: 20px;
+    /* border: 3px solid; */
 }
 .politicsportion{
     display: flex;
@@ -643,6 +680,8 @@ i.fa.fa-angle-right.rightarrow {
     /* align-items: center; */
     /* width: 100%; */
     /* padding: 20px; */
+    
+    width: 100%;
 }
 .politicssection h4{
     border-bottom: 2px solid #ccced7;
@@ -670,9 +709,10 @@ i.fa.fa-angle-right.rightarrow {
 .politicsp1{
     /* width: 50%; */
     border-right: 1px solid #ccced7;
-    padding-right: 50px;
+    /* padding-right: 20px; */
     /* max-width: 520px; */
     width: 50%;
+    padding: 0 4% 0 0;
 }
 section#opacity {}
 
@@ -683,16 +723,19 @@ section#opacity {
 .politicsportion {}
 
 .politicsportion2 {
-    padding-right: 40px;
-    width: 50%;
+    /* padding-right: 40px; */
+    width: 46%;
+    /* padding: 0 4% 0 0; */
+    margin-left: 10px;
 }
 .imagedivpol{
     /* width: 600px; */
     /* max-width: 600px; */
 }
 .imagedivpol img{
-    width: 100%;
+    width: 99%;
     padding-bottom: 20px;
+    display: flex;
 }
 .politicsinfo a{
     line-height: 1.3;
@@ -718,11 +761,13 @@ section#opacity {
 .politicsp2{
     display: flex;
     flex-direction: row;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     /* margin-top: 20px; */
 }
 .imagesec1 .newsimage img{
     margin-top: -10px;
+    /* padding-left: 10px; */
+    padding-bottom: 10px;
 }
 .newsimage:hover{
     opacity: 0.7;
@@ -758,7 +803,6 @@ section#opacity {
     overflow-y: auto;
     overflow-x: hidden;
     display: none;
-    
 }
 .sidenavcontent{
     display: flex;
@@ -777,6 +821,7 @@ section#opacity {
     font-family: work sans,sans-serif;
     border-bottom: 1px solid rgba(255,255,255,.2);
     /* padding-left: 12px; */
+    text-align: initial;
 }
 .inputcontainer{
     width: 100%;
@@ -860,7 +905,7 @@ li.navitems.follow {
 }
 
 i.fa.fa-instagram.logo.logonav {
-    font-size: 29px;
+    font-size: 26px;
 }
 i.fa.fa-facebook-official.logo.logonav {
     font-size: 25px;
@@ -879,6 +924,7 @@ li.meta {
     font-size: 14px;
     padding-top: 15px;
     font-weight: 200;
+    text-align: start;
 }
 .cross:hover{
     opacity:0.7;
@@ -948,7 +994,7 @@ ul#sports {
 
 /* read slider container */
 .readcontainer{
-    /* width: 100%; */
+    width: 95%;
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
@@ -957,6 +1003,7 @@ ul#sports {
     /* border: 2px solid; */
     overflow: auto;
     margin-top: 85px;
+    margin-left: 20px;
 }
 .readcontainer::-webkit-scrollbar{
     display: none;
@@ -1181,7 +1228,8 @@ font-size: 20px;
     padding-bottom: 20px;
 }
 .subscribecontent{
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
+    /* margin-top: 75px; */
 }
 .subscribecontent input{
     padding: 8px;
@@ -1194,9 +1242,8 @@ font-size: 20px;
     border-radius: 9999px;
     cursor: pointer;
     font-size: 1.125em;
-   padding: 15px 25px;
+    padding: 15px 38px;
     text-align: center;
-    
     margin-top:20px;
 }
 .subscribecontent h3{
@@ -1210,17 +1257,60 @@ font-size: 20px;
 }
 
 .imgdiv.worldimg {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .worldinfo {
     width: 100%;
 }
+.footerend{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
 .footercontent{
     display: flex;
     flex-direction: row;
     max-width: 1400px;
+    border-bottom: 2px solid #ccced7;
+    padding-bottom: 40px;
 }
+.midcontent.footerlast {
+    margin-bottom: 10px;
+    width: 90%;
+    margin-top: 20px;
+}
+.footerlast a.about {
+    text-decoration: none;
+    font-size: 15px;
+    color: #a9adbb;
+    padding: 0px;
+    margin-left: 30px;
+    color: #2b2c30;
+    font-size: 14px;
+    
+}
+.designed{
+    float: right;
+    font-size: 14px;
+}
+.copyright{
+    margin-left: 30px;
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footercontent.response {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-left: 30px;
+    width: 96%;
+    margin-top: 30px;
+    }
 h3.primenews {
     font-size: 20px;
 }
@@ -1275,7 +1365,7 @@ width: 20%;
 
 .footercontent {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .subscribecontent.thirdportion {
@@ -1305,9 +1395,9 @@ h3.border {
 }
 .footer{
    margin-top: 85px;
-   display: flex;
-   justify-content: center;
+
    background: #f9f9f9;
+   flex-wrap: wrap;
 }
 .footercontent{
    
@@ -1349,6 +1439,20 @@ h3.border {
     .politicsp1{
         width: 50%;
     }
+    .direction .newsimage {
+        width: 40%;
+        float: left;
+        padding-top: 0;
+    }
+    .politicsp1 {
+        /* width: 50%; */
+        border-right: 1px solid #ccced7;
+        /* padding-right: 20px; */
+        /* padding-left: 20px; */
+        /* max-width: 520px; */
+        width: 50%;
+        /* padding: 0 3% 0 17px; */
+    }
     .politicsp2{
        
     }
@@ -1356,6 +1460,7 @@ h3.border {
         display: flex;
         flex-direction: column;
           }
+          
          
 }
 @media(max-width:850px){
@@ -1363,15 +1468,19 @@ h3.border {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 90%;
-        
+        width: 100%;
         /* padding: 20px; */
+    }
+   .imagesec1 .newsimage {
+        max-width: 100%;
     }
     .topslider{
         display: none;
       }
     .politicssection{
-        padding-left: 29px;
+        /* padding-left: 29px; */
+        margin: 10px;
+        width: 97%;
     }
     .politicsportion2 {
         padding-right: 40px;
@@ -1387,6 +1496,17 @@ h3.border {
 
        
     }
+    .titleinfo1 .title{
+        display: flex;
+        margin-top: 10px;
+    
+    }
+    .titleinfo1 .title a{
+        margin-left: 10px;
+    }
+    .slides .imageslider{
+        width: 95%;
+    }
     .politicsp2 .imagesec1{
         width: 50%;
     }
@@ -1398,19 +1518,37 @@ h3.border {
     .editorialdiv.latestnews {
         width: 90%;
         padding: 20px 0px 0;
-
-    }
-    .footercontent {
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
-    .footercontent .firstportion{
-        width: 100%;
-        padding-top: 20px;
+        /* margin-top: 75px; */
+        margin-bottom: 75px;
     }
     
+        
+        
+    
+    /* .footercontent .firstportion{
+        width: 100%;
+        padding-top: 20px;
+    } */
+    .politicsportion.pol {
+        flex-direction: row;
+    }
+    .blackarea {
+        background: #2b2c30;
+        color: #70727c;
+        margin-top: 85px;
+      width: 98%;
+    }
+    .black .politicsp1 {
+        padding: 0;
+    }
+    .latnews1 .imagedivpol {
+        width: 100%;
+    }
+    
+    .politicssection.latnews {
+        width: 90%;
+        margin-left: 25px;
+    }
 }
 @media(max-width:700px){
     .slider.latestnewsinfo {
@@ -1422,13 +1560,45 @@ h3.border {
         margin-top: 20px;
        padding-left: 0;
     }
-}
-@media(max-width:430px){
-    .politicssection{
-        padding-left: 20px;
+    .slider.sidenavnews.worldnews1.latestnewsinfo {
+        width: 99%;
     }
 }
+@media(max-width:450px){
+    .blackarea .imagesec1 .newsimage {
+        max-width: 30%;
+    }
+        .blackarea .imagesec1 .titleinfo .entry-meta {
+            /* padding-bottom: 60px; */
+            text-align: start;
+            margin-top: -12px;
+            margin-left: 10px;
+    }
+
+    .blackarea .politicsblack .politicsp2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blackarea .politicsp2 .imagesec1 {
+        width: 96%;
+        display: flex;
+    }
+    .blackarea{
+        margin-bottom: 75px;
+    }
+
+    }
+
 @media(max-width:1250px){
+    .imagecontiner {margin-left: 15px;}
+    .footercontent{
+        flex-wrap: wrap;
+    }
+
+.newsimage.nm1 {
+    margin-bottom: 15px;
+}
     .display1{
         display: none;
     }
@@ -1442,11 +1612,12 @@ h3.border {
 .editorial2{
     display: flex;
     flex-direction: column;
-
+    width: 100%;
 }
+
 .slidersection {
     
-    margin-left: -31px;
+/* margin-left: -31px; */
 }
 
  .direction{
@@ -1465,12 +1636,15 @@ element.style {
 }
 .slides .imageslider{
     width: 90%;
-   
     display: flex;
 }
 .slides .imageslider{
    
+/* margin-left: 0px; */
+   
 margin-top: -36px;
+   
+/* margin-right: 34px; */
 }
 .slides .imageslider img{
     /* margin-top: 82px; */
@@ -1480,13 +1654,15 @@ margin-top: -36px;
 .slides{
     display: flex;
     justify-content: center;
+    
+    
 }
 i.fa.fa-angle-right.rightarrow {
-    right: 64px;
+    right: 99px;
 }
 i.fa.fa-angle-left.leftarrow {
 
-left: 98px;
+left: 82px;
 }
 .politicsp2.editoial1250 {
     width: 50%;
@@ -1510,7 +1686,36 @@ div3.direction {
     align-items: baseline;
     width: 100%;
 }
+
+
+.newsimage {
+    /* max-width: 351px; */
+    /* margin-bottom: 30px; */
+    /* padding-top: 10px; */
+    /* border: 3px solid;*/
+    /* display: flex; */
+    /* flex-direction: column; */
 }
+.imagecontainer .title {
+    
+        margin-top: 13px;
+        /* font-size: 18px; */
+        margin-left: 11px;
+        text-align: center;
+        line-height: 1.3
+    }
+    .imagecontainer .title a{
+        font-size: 20px;
+
+    }
+    .videotitle{
+        display: flex;
+    }
+    .videotitle a{
+        padding-left: 10px;
+    }
+
+
 @media(max-width:670px){
     .direction{
         display: flex;
@@ -1521,15 +1726,28 @@ div3.direction {
         width: 90%;
 
 }
+
+
 .editorialdiv.latestnews.ln {
     padding-left: 20px;
     width: 50%;
 }
+.container{
+    
 }
+.titleinfo1 .entry-meta .entry-date {
+    padding-right: 10px;
+    margin-left: 10px;
+}
+}
+
 @media(max-width:980px){
     ul.navitemcontainer {
        display: none;
        
+    }
+    .conatainer{
+        width: 95%;
     }
     .navmenu{
         display: block;
@@ -1544,5 +1762,60 @@ div3.direction {
         display: none;
     }
     
+
+}
+}
+@media(max-width:640px){
+    .politicsportion.pol {
+        flex-direction: column;
+
+    }
+    .politicsp1.worldsp1 {
+        padding: 13px;
+        width: 95%;
+    }
+
+
+}
+@media(max-width:1000px){
+    .firstportion{
+        width: 48%;
+
+    }
+    .secondportion{
+        width:48%;
+
+    }
+    .thirdportion{
+        width:48%;
+        margin-top: 30px;
+
+    }
+    .fourthportion{
+        width:48%;
+        margin-top: 30px;
+
+    }
+
+}
+@media(max-width:630px){
+    .firstportion{
+        width: 95%;
+
+    }
+    .secondportion{
+        width:95%;
+
+    }
+    .subscribecontent.thirdportion.firstportion {
+        width: 100%;
+        margin-top:10px
+
+    }
+    .fourthportion{
+        width:95%;
+        margin-top: 30px;
+
+    }
 
 }
