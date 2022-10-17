@@ -279,3 +279,24 @@ function openview(){
 // mp.style.backgroundColor="#f4f5f5";
 //#aaa
 
+//navmenu close
+function opennavmenu() {
+  var x = document.getElementById("navitemcontainer");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+   
+  }
+}
+// function myFunction(y) {
+//   if (y.matches) { // If media query matches
+//     document.getElementsByClassName.style.display = "block";
+//   } else {
+//    document.body.style.display = "none";
+//   }
+// }
+
+// var x = window.matchMedia("(min-width: 980px)")
+// myFunction(y) // Call listener function at run time
+// y.addListener(myFunction) // Attach listener function on state changes

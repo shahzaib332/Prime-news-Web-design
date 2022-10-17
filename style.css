@@ -337,6 +337,7 @@ i.fa.fa-bars.iconbar {
     /* width: 50px; */
     font-size: 28px;
     /* align-items: center; */
+    margin-top: 5px;
 }
 i.fa.fa-angle-down{
     margin-left: 5px;
@@ -1460,6 +1461,7 @@ h3.border {
         flex-direction: column;
           }
           
+          
          
 }
 @media(max-width:850px){
@@ -1548,6 +1550,7 @@ h3.border {
         width: 90%;
         margin-left: 25px;
     }
+    
 }
 @media(max-width:700px){
     .slider.latestnewsinfo {
@@ -1750,6 +1753,15 @@ div3.direction {
 }
 
 @media(max-width:980px){
+    
+    ul.navmenu {
+        display: flex;
+        width: fit-content;
+        display: inline-flex;
+    }
+    
+
+
     ul.navitemcontainer {
        display: none;
        
@@ -1765,10 +1777,54 @@ div3.direction {
     }
     li.navitems.menu1 {
         display: block;
+        margin-left: 0;
+        margin-top: 5px;
     }
     .hide1{
         display: none;
     }
+    /*  */
+    ul.nic {
+        /* display: inline-grid; */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    ul.nic {
+        margin-top: 50px;
+        margin-left: 0px;
+        /* width: 91%; */
+        /* display: flex; */
+        border: 2px solid;
+        /* width: 95%; */
+        display: none;
+    }
+    
+    li.navitems11 {
+        display: flex;
+    }
+    
+    li.navitems11.business {}
+    
+    i.fa.fa-angle-down {
+        right: 70px;
+        position: absolute;
+    }
+    
+    ul.navcontent11 {
+        margin-left: -40px;
+    }
+    
+    li.navitems11 {
+        margin-left: -20px;
+        padding: 10px;
+    }
+    
+    li.icon {
+        left: 70px;
+    }
+
+    /*  */
     
 
 }
@@ -1856,6 +1912,13 @@ div3.direction {
             font-weight: 600;
             font-family: work sans,sans-serif;
     }
+    .black .politicsp1 {
+        padding: 0;
+        margin-left: 5px;
+    }
+    img.videoimg{
+        width: 95%;
+    }
 
 .slides .imageslider img {
     /* margin-top: 82px; */
@@ -1871,11 +1934,11 @@ div3.direction {
     margin-left: 25px;
 }
 .slidersection i.fa.fa-angle-right.rightarrow {
-    right: 44px;
+    right: 27px;
     top: 179px;
 }
 .slidersection i.fa.fa-angle-left.leftarrow {
-    left: 5px;
+    left: 25px;
     top: 179px;
 }
 
@@ -1916,4 +1979,4 @@ i.fa.fa-search {
     /* margin: 0 30px 0 30px; */
     margin: 0;
 
-}
+}}
